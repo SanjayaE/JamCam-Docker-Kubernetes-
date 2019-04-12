@@ -1,6 +1,6 @@
 ## JamCam
 
-Testing Azure
+Testing Azure2
 
 [**Demo link**](https://jamcam.ksatra.com)
 
