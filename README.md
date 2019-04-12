@@ -1,5 +1,7 @@
 ## JamCam
 
+[![Build Status](https://dev.azure.com/dushantha0509/Jamcam-docker/_apis/build/status/SanjayaE.JamCam-Docker-Kubernetes?branchName=master)](https://dev.azure.com/dushantha0509/Jamcam-docker/_build/latest?definitionId=1&branchName=master)
+
 Testing Azure2
 
 [**Demo link**](https://jamcam.ksatra.com)
