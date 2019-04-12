@@ -19,6 +19,6 @@ steps:
       npm install
       npm run build
   - task: DockerCompose@0
-  inputs:
+    inputs:
     azureSubscriptionEndpoint: 'Azure for Students(e9122c58-941a-4646-8e7c-aadf7be91202)'
     action: 'Run a Docker Compose command'
