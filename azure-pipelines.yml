@@ -18,7 +18,6 @@ steps:
       helmVersion: '2.9.1
       
   - task: HelmDeploy@0
-    displayName: 'helm init'
     inputs:
       azureSubscription: 'Azure for Students (e9122c58-941a-4646-8e7c-aadf7be91202)'
       azureResourceGroup: JamCamDockerKubernetes
