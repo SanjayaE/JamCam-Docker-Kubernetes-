@@ -10,6 +10,11 @@ steps:
   - script: |
       npm install
       npm run build
+  - task: Docker@2
+    inputs:
+      containerRegistry: '71b33dea-988a-4d60-bd55-5b7bd4ad02d0'
+      repository: 'dushantha/jamcam'
+      command: 'buildAndPush'
 
   
 
