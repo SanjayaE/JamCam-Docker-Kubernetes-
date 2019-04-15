@@ -1,5 +1,5 @@
 trigger:
-  - azure-pipelines-withKubernetes
+  - master
 pool:
   vmImage: Ubuntu-16.04
 steps:
