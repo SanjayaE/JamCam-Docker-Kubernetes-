@@ -10,11 +10,10 @@ steps:
   - script: |
       npm install
       npm run build
-  - task: Docker@2
+  - task: DockerCompose@0
     inputs:
-      containerRegistry: '71b33dea-988a-4d60-bd55-5b7bd4ad02d0'
-      repository: 'dushantha/jamcam'
-      command: 'buildAndPush'
-
+      azureSubscriptionEndpoint: 'Azure for Students(e9122c58-941a-4646-8e7c-aadf7be91202)'
+      azureContainerRegistry: '{"loginServer":"jamcamdockerkubernetes.azurecr.io", "id" : "/subscriptions/e9122c58-941a-4646-8e7c-aadf7be91202/resourceGroups/JamCamDockerKubernetes/providers/Microsoft.ContainerRegistry/registries/JamCamDockerKubernetes"}'
+      action: 'Run a Docker Compose command'
   
 
